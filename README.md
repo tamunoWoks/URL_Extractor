@@ -139,3 +139,6 @@ open_all_links(url)
 3. **Privacy:** The script only reads public webpages and doesn't handle authentication
 4. **Legal Use:** Only use on websites you have permission to scrape
 5. **Network Dependency:** Requires active internet connection
+
+### License
+This script is provided for educational and personal use. Always respect website terms of service and robots.txt files.
