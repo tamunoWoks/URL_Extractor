@@ -118,3 +118,17 @@ The script handles the following errors gracefully:
 | Links not opening in browser | Check default browser settings or browser compatibility |
 | Script stops after entering URL | URL may be invalid - ensure it starts with `http://` or `https://` |
 | Too many tabs opened | Reduce `MAX_TABS` value in the script |
+
+### Code Structur 
+```text
+open_all_links(url)
+├── URL validation
+├── Fetch webpage (requests.get)
+├── Parse HTML (BeautifulSoup)
+├── Extract all <a href> links
+├── Validate and convert to absolute URLs
+├── Save all links to file
+└── User choice: open or just save
+    ├── Option 1: open_links_in_browser()
+    └── Option 2: Just save confirmation
+```
