@@ -77,3 +77,13 @@ Done! All accessible links were opened.
 
 ### File Output
 - **extracted_links.txt**: Contains all the extracted links, one per line.
+
+### Customization
+- **Maximum browser tabs**:
+  ```python
+  MAX_TABS = 20  # Change this number to adjust maximum tabs
+  ```
+- **Links output file name**:
+  ```python
+  LINKS_FILE = "extracted_links.txt"  # Change this if you want a different filename
+  ```
