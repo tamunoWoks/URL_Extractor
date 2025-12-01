@@ -14,7 +14,9 @@ A Python script that extracts all valid links from a given webpage and provides 
 - User-friendly interface to choose whether to open links or just save them.
 
 ### File Structure
+```text
 web_link_extractor/
 ├── link_extractor.py      # Main script
 ├── extracted_links.txt    # Generated file containing all links
 └── README.md              # This documentation
+```
