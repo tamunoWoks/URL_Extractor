@@ -109,3 +109,12 @@ The script handles the following errors gracefully:
 - Timeout errors
 - Parsing errors
 - KeyboardInterrupt (Ctrl+C)
+
+### Common Issues & Solutions
+| Issue | Solution |
+|-------|----------|
+| "ModuleNotFoundError: No module named 'requests'" | Run `pip install requests beautifulsoup4` |
+| "Error fetching the page: [SSL: CERTIFICATE_VERIFY_FAILED]" | Update your Python certificates or use a trusted URL |
+| Links not opening in browser | Check default browser settings or browser compatibility |
+| Script stops after entering URL | URL may be invalid - ensure it starts with `http://` or `https://` |
+| Too many tabs opened | Reduce `MAX_TABS` value in the script |
