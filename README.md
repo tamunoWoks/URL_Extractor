@@ -47,3 +47,6 @@ Do you want to open the links in your browser or only save them?
 ```
 - Enter `1` to open links in your default browser (up to 20 tabs).
 - Enter `2` to only save the links to the text file without opening browser tabs.
+
+### File Output
+- **extracted_links.txt**: Contains all the extracted links, one per line.
