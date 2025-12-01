@@ -20,3 +20,14 @@ web_link_extractor/
 ├── extracted_links.txt    # Generated file containing all links
 └── README.md              # This documentation
 ```
+
+### Requirements
+- Python 3.6 or higher
+- Required libraries:
+  - `requests`
+  - `beautifulsoup4`
+
+You can install the required libraries using pip:
+```bash
+pip install requests beautifulsoup4
+```
