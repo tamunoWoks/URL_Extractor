@@ -94,6 +94,13 @@ https://external-site.com/resource
   LINKS_FILE = "extracted_links.txt"  # Change this if you want a different filename
   ```
 
+### Safety Features
+1. **Tab Limit:** Automatically limits opened tabs to prevent browser/computer overload
+2. **URL Validation:** Only processes valid HTTP/HTTPS URLs and relative paths
+3. **Error Handling:** Gracefully handles network errors, timeouts, and invalid HTML
+4. **Duplicate Prevention:** Uses sets to avoid opening duplicate links
+5. **Absolute URL Conversion:** Converts relative URLs to absolute URLs
+
 ### Error Handling
 The script handles the following errors gracefully:
 - Invalid or malformed URLs
