@@ -75,8 +75,14 @@ Opening 20 links in browser...
 Done! All accessible links were opened.
 ```
 
-### File Output
-- **extracted_links.txt**: Contains all the extracted links, one per line.
+### File Output Format
+The script creates `extracted_links.txt` with one URL per line:
+```
+https://example.com/page1
+https://example.com/page2
+https://subdomain.example.com/article
+https://external-site.com/resource
+```
 
 ### Customization
 - **Maximum browser tabs**:
