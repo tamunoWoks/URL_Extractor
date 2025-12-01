@@ -151,5 +151,4 @@ Feel free to modify and adapt this script for your needs. Some potential enhance
 4. Support for authenticated sessions
 5. Export to different formats (CSV, JSON)
 
-### Source Code
-[urlExtractor.py](https://github.com/tamunoWoks/URL_Extractor/blob/main/urlExtractor.py)
+### Source Code : [urlExtractor.py](https://github.com/tamunoWoks/URL_Extractor/blob/main/urlExtractor.py)
