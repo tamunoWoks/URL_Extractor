@@ -48,5 +48,32 @@ Do you want to open the links in your browser or only save them?
 - Enter `1` to open links in your default browser (up to 20 tabs).
 - Enter `2` to only save the links to the text file without opening browser tabs.
 
+### Example Workflow
+```bash
+$ python urlExtractor.py
+Enter a URL: https://news.ycombinator.com
+
+Fetching page: https://news.ycombinator.com
+Found 150 links, saving to file...
+
+All links saved to '/path/to/extracted_links.txt'
+
+Do you want to open the links in your browser or only save them?
+1. Open links in browser
+2. Only save to file
+Enter 1 or 2: 1
+
+Found 150 links, opening only the first 20 to prevent overload.
+
+Opening 20 links in browser...
+
+[1/20] Opened: https://news.ycombinator.com/item?id=12345678
+[2/20] Opened: https://example.org/article1
+...
+[20/20] Opened: https://github.com/topics/python
+
+Done! All accessible links were opened.
+```
+
 ### File Output
 - **extracted_links.txt**: Contains all the extracted links, one per line.
