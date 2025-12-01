@@ -1,2 +1,4 @@
-# URL_Extractor
-This Python script fetches all valid links from a specified webpage and gives the user the option to either open them in browser tabs or save them to a text file.
+## Web Link Extractor & Browser Opener 
+
+### Overview
+A Python script that extracts all valid links from a given webpage and provides options to either open them in your browser or save them to a file. The script includes safeguards to prevent browser overload by limiting the number of tabs opened.
