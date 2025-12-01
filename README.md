@@ -31,3 +31,19 @@ You can install the required libraries using pip:
 ```bash
 pip install requests beautifulsoup4
 ```
+
+### Usage
+1. **Run the script**:
+```bash
+python link_opener.py
+```
+2. **Enter a valid URL** when prompted (must start with `http://` or `https://`).
+3. The script will fetch and parse the webpage, extract links, and save them to `extracted_links.txt`.
+4. You will be prompted:
+```
+Do you want to open the links in your browser or only save them?
+1. Open links in browser
+2. Only save to file
+```
+- Enter `1` to open links in your default browser (up to 20 tabs).
+- Enter `2` to only save the links to the text file without opening browser tabs.
