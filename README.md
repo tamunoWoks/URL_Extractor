@@ -134,7 +134,7 @@ open_all_links(url)
 ```
 
 ### Important Notes
-1. **Browser Behavior:** The script uses webbrowser.open_new_tab() which respects your system's default browser settings
+1. **Browser Behavior:** The script uses `webbrowser.open_new_tab()` which respects your system's default browser settings
 2. **Rate Limiting:** Opening many tabs quickly might be blocked by some websites
 3. **Privacy:** The script only reads public webpages and doesn't handle authentication
 4. **Legal Use:** Only use on websites you have permission to scrape
@@ -142,3 +142,11 @@ open_all_links(url)
 
 ### License
 This script is provided for educational and personal use. Always respect website terms of service and robots.txt files.
+
+### Contributions
+Feel free to modify and adapt this script for your needs. Some potential enhancements:
+1. Add command-line arguments support
+2. Implement link filtering by pattern or domain
+3. Add delay between opening tabs
+4. Support for authenticated sessions
+5. Export to different formats (CSV, JSON)
