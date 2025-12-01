@@ -93,3 +93,12 @@ https://external-site.com/resource
   ```python
   LINKS_FILE = "extracted_links.txt"  # Change this if you want a different filename
   ```
+
+### Error Handling
+The script handles the following errors gracefully:
+- Invalid or malformed URLs
+- Connection errors
+- HTTP errors (404, 500, etc.)
+- Timeout errors
+- Parsing errors
+- KeyboardInterrupt (Ctrl+C)
