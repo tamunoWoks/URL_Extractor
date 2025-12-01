@@ -12,3 +12,9 @@ A Python script that extracts all valid links from a given webpage and provides 
 - Displays a progress counter when opening links.
 - Graceful error handling for invalid URLs, connection issues, timeouts, and parsing errors.
 - User-friendly interface to choose whether to open links or just save them.
+
+### File Structure
+web_link_extractor/
+├── link_extractor.py      # Main script
+├── extracted_links.txt    # Generated file containing all links
+└── README.md              # This documentation
