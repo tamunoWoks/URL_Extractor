@@ -119,7 +119,7 @@ The script handles the following errors gracefully:
 | Script stops after entering URL | URL may be invalid - ensure it starts with `http://` or `https://` |
 | Too many tabs opened | Reduce `MAX_TABS` value in the script |
 
-### Code Structur 
+### Code Structure 
 ```text
 open_all_links(url)
 ├── URL validation
@@ -132,3 +132,10 @@ open_all_links(url)
     ├── Option 1: open_links_in_browser()
     └── Option 2: Just save confirmation
 ```
+
+### Important Notes
+1. **Browser Behavior:** The script uses webbrowser.open_new_tab() which respects your system's default browser settings
+2. **Rate Limiting:** Opening many tabs quickly might be blocked by some websites
+3. **Privacy:** The script only reads public webpages and doesn't handle authentication
+4. **Legal Use:** Only use on websites you have permission to scrape
+5. **Network Dependency:** Requires active internet connection
