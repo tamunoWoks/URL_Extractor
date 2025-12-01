@@ -1,4 +1,4 @@
-## Web Link Extractor & Browser Opener 
+## URL Extractor & Browser Opener 
 
 ### Overview
 A Python script that extracts all valid links from a given webpage and provides options to either open them in your browser or save them to a file. The script includes safeguards to prevent browser overload by limiting the number of tabs opened.
@@ -15,8 +15,8 @@ A Python script that extracts all valid links from a given webpage and provides 
 
 ### File Structure
 ```text
-web_link_extractor/
-├── link_extractor.py      # Main script
+url_extractor/
+├── urlExtractor.py        # Main script
 ├── extracted_links.txt    # Generated file containing all links
 └── README.md              # This documentation
 ```
@@ -35,7 +35,7 @@ pip install requests beautifulsoup4
 ### Usage
 1. **Run the script**:
 ```bash
-python link_opener.py
+python urlExtractor.py
 ```
 2. **Enter a valid URL** when prompted (must start with `http://` or `https://`).
 3. The script will fetch and parse the webpage, extract links, and save them to `extracted_links.txt`.
